@@ -59,9 +59,9 @@ return (0);
  */
 int print_integer(va_list list_argument)
 {
-	int a, b = 0;
-	unsigned int x;
-	a = va_arg(list_argument, int);
+int a, b = 0;
+unsigned int x;
+a = va_arg(list_argument, int);
 	if (a < 0)
 	{
 		_putchar('-');
