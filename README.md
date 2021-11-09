@@ -24,6 +24,7 @@ Write your own printf function
        %b Convert the unsigned argument to a binary and print it.
 
        %u Prints the integer unsigned decimal conversion.
+```
 
 ## Examples: ##
 ```
@@ -39,7 +40,7 @@ Write your own printf function
        4:) _printf("Unsigned:[%u]\n", ui);
        Unsigned:[2147484671]
 ```
-       ## Compilations: ##
+## Compilations: ##
 ```
       Your code will be compiled this way:
 
