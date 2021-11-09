@@ -25,9 +25,6 @@ Write your own printf function
 
        %u Prints the integer unsigned decimal conversion.
 
-       
-       
-```
 ## Examples: ##
 
 ## Compilations: ##
