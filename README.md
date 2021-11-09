@@ -27,7 +27,22 @@ Write your own printf function
 
 ## Examples: ##
 
-## Compilations: ##
-  Your code will be compiled this way:
+       1:) _printf("Let's try to printf a simple sentence.\n");
+       Let's try to printf a simple sentence.
+       
+       2:) _printf("Length:[%d, %i]\n", len, len);
+       Length:[39, 39]
+       
+       3:) _printf("Negative:[%d]\n", -762534);
+       Negative:[-762534]
+       
+       4:) _printf("Unsigned:[%u]\n", ui);
+       Unsigned:[2147484671]
+
+       ## Compilations: ##
+      Your code will be compiled this way:
 
       $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
+
+      and execute it with the command 
+      ./a.out
