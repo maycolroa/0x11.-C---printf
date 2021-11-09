@@ -26,7 +26,7 @@ Write your own printf function
        %u Prints the integer unsigned decimal conversion.
 
 ## Examples: ##
-
+```
        1:) _printf("Let's try to printf a simple sentence.\n");
        Let's try to printf a simple sentence.
        
@@ -38,11 +38,13 @@ Write your own printf function
        
        4:) _printf("Unsigned:[%u]\n", ui);
        Unsigned:[2147484671]
-
+```
        ## Compilations: ##
+```
       Your code will be compiled this way:
 
       $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 
       and execute it with the command 
       ./a.out
+```
