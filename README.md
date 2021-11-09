@@ -25,15 +25,6 @@ Write your own printf function
 
        %u Prints the integer unsigned decimal conversion.
 
-       o Prints the integer unsigned octal conversion.
-
-       x Unsigned hexadecimal conversion in lowercase form.
-
-       X Unsigned hexadecimal conversion uppercase  form.
-       
-       R print a string in ROT13.
-       
-       r prints the reversed string.
        
 ```
 ## Compilations: ##
