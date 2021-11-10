@@ -1,28 +1,18 @@
 #include "main.h"
 
 /**
- * *text_format - relaciona los tipos de
- * formato con la funcion correspondiente
- * @arga: trae los argumentos de format
- * @argb: posicion de cada argumento
+ * * text_format - relates the types of
+ * format with the corresponding function
+ * @arga: bring the format arguments
+ * @argb: position of each argument
  *
  * Return: 0.
  */
-
-/* cambiar nombre de funciones */
-
-int (*text_format(const char *arga, int argb))(va_list)
-{
-	/* lista de argumentos de la estructura struct_format */
-
-	/**
-	 * s_format -  structura
-	 */
+  int (*text_format(const char *arga, int argb))(va_list)
+  {
+	
 	s_format list[] = {
-		/**
-		 * primera columna ("") es el formato y la segunda
-		 * es la lista de funciones
-		 */
+		
 		{"c", print_char},
 		{"s", print_string},
 		{"d", print_integer},
@@ -42,20 +32,13 @@ int (*text_format(const char *arga, int argb))(va_list)
 
 	for (i = 0; list[i].args != NULL; i++)
 	{
-		/**
-		 * si list en la posicion i es parte de args en la posicion 0
-		 * debe ser igual a argu en la posion argb
-		 * (arga es el formato y argb es la posicion)
-		 */
+		
 		if (list[i].args[0] == arga[argb])
 		{
-			/**
-			 * retorna list en la posicion i que
-			 * hace parte de func que es la lista de funciones
-			 */
+			
 			return (list[i].func);
 		}
 	}
-	/* si no cumple las condiciones anteriores retorna NULL */
+	
 	return (NULL);
 }
