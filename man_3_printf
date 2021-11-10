@@ -30,6 +30,8 @@ Description
         _printf("String: [%s]", "I am a string !");
         $ String: [I am a string !]
         
+        _printf("String: [%%]", "I am percent!");
+        $ null: [I am a percent!]        
         
          AUTHOR(S)
         Juan David Ballesteros.
