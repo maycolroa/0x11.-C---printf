@@ -26,6 +26,10 @@ Write your own printf function
        %u Prints the integer unsigned decimal conversion.
 ```
 
+## printf flowchart  ##
+
+![diagrama printf](https://user-images.githubusercontent.com/85509333/141142813-531a1210-c8af-4316-9b6b-a8c95f17a46e.png)
+
 ## Examples: ##
 ```
        1:) _printf("Let's try to printf a simple sentence.\n");
