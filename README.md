@@ -53,3 +53,55 @@ Write your own printf function
       and execute it with the command 
       ./a.out
 ```
+
+SYNOPSYS
+
+```
+        
+    .B Print ARGUMENT(s) according to FORMAT.
+
+
+    .B Interpreted sequences are:
+
+
+    .B %c:
+     Prints the character passed as parameter.
+
+    .B %s:
+     Prints text string finished with null character.
+
+    .B %d:
+     Converts argument to signed decimal notation and print it.
+
+    .B %i:
+     Converts argument to unsigned decimal notation and print it.
+
+    .B %%
+     Prints a single '%' character
+
+    .B %b
+     Convert the unsigned argument to a binary and print it.
+
+    .B %u
+     Prints the integer unsigned decimal conversion.
+
+    .B %o
+     Prints the integer unsigned octal conversion.
+
+    .B %x
+     Unsigned hexadecimal conversion in lowercase form.
+
+    .B %X
+     Unsigned hexadecimal conversion uppercase  form.	
+
+    .B %r
+     prints the reversed string.
+
+    .B %R
+     print a string in Rot 13.
+```
+```
+ AUTHOR(S)
+        Juan David Ballesteros.
+        Maycol David Roa.
+```
