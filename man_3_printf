@@ -17,13 +17,7 @@ Description
         %% prints a percent sign 
         
         SYNOPSYS
-
-    .B #include \*(lqholberton.h\*(rq
-
-    .B _printf (const char *format, ...);
-
-
-        DESCRIPTION
+        
     .B Print ARGUMENT(s) according to FORMAT.
 
 
