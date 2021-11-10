@@ -30,7 +30,7 @@ Description
         _printf("String: [%s]", "I am a string !");
         $ String: [I am a string !]
         
-        _printf("String: [%%]", "I am percent!");
+        _printf("i am a null or percent: [%%]", "I am percent!");
         $ null: [I am a percent!]        
         
          AUTHOR(S)
